@@ -1,0 +1,37 @@
+html {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(53, 53, 53)
+}
+h1,h2 {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 20px 20px;    
+    color: orange;
+    text-align: center
+  }
+
+img {
+    padding: 40px 40px; 
+    display: block;
+    margin: 10px auto;
+    width: 70%
+  }
+
+.c1 {
+    color: orange;
+    font-size: 20px
+}
+
+.c2 {
+  color: rgb(163, 163, 81);
+  font-size: 20px
+}
+
+a:link {
+  color: rgb(161, 161, 99);
+}
+
+a:visited {
+  color:olive;
+}
