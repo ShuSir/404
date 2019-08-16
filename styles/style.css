@@ -3,30 +3,82 @@ html {
     font-family: "Open Sans", sans-serif;
     background-color: rgb(53, 53, 53)
 }
-h1,h2 {
-    font-size: 30px;
+.header {
+    font-size: 100%;
+    height: 150px;
     margin: 0 auto;
     padding: 20px 20px;    
     color: orange;
-    text-align: center
-  }
-
-img {
-    padding: 40px 40px; 
-    display: block;
-    margin: 10px auto;
-    width: 70%
+    text-align: center;
   }
 
 .c1 {
     color: orange;
-    font-size: 20px
+    font-size: 120%;
+    float: left;
+    padding : 1%; 
+    width: 30%;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    flex-direction: column;
 }
 
 .c2 {
-  color: rgb(163, 163, 81);
-  font-size: 20px
+  color: rgb(240, 197, 116);
+  font-size: 120%;
+  float: left;
+  padding : 1%; 
+  width: 25%;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(39, 38, 38);
+  display: flex;
+  flex-direction: column;
 }
+
+
+.c3 {
+  color: rgb(163, 163, 81);
+  font-size: 120%;
+  float: left;
+  padding : 1%; 
+  width: 35%;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(39, 38, 38);
+  display: flex;
+  flex-direction: column;
+}
+
+.c3 ul{
+  overflow: auto;
+}
+
+.c4 {
+    color: rgb(125, 179, 125);
+    font-size: 120%;
+    padding : 1%; 
+    width: 30%;
+    margin-top: 300px;
+    position: relative;
+  }
+
+.c5 {
+  color: rgb(125, 179, 125);
+  font-size: 90%;
+  padding : 1%; 
+  width: 100%;
+  margin: 0;
+}
+
+span {
+    background-color: rgba(163, 253, 163, 0.315);
+  }
 
 a:link {
   color: rgb(161, 161, 99);
@@ -34,4 +86,11 @@ a:link {
 
 a:visited {
   color:olive;
+}
+
+img {
+  padding: 40px 40px; 
+  display: block;
+  margin: 10px auto;
+  width: 70%
 }
