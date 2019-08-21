@@ -78,6 +78,10 @@ html {
 
 span {
     background-color: rgba(163, 253, 163, 0.315);
+    position: relative;
+    float: left;
+    padding: 7px 3px;
+    margin: 0 5px 5px 0;
   }
 
 a:link {
@@ -93,4 +97,15 @@ img {
   display: block;
   margin: 10px auto;
   width: 70%
+}
+
+button{
+  float: left;
+  top: 0;
+  background-color: bisque;
+  border: none;
+  color: rgb(53, 53, 53);
+  text-align: center;
+  padding: 0.5%;
+  border-radius: 4px;
 }
